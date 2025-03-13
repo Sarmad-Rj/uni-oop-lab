@@ -4,7 +4,7 @@ public class Activity_2_Rectangle {
     private int length, width;
     public Activity_2_Rectangle() {
         length = 5;
-        width = 2;
+        width = 10;
     }
     public Activity_2_Rectangle(int l, int w) {
         length = l;
