@@ -4,7 +4,7 @@ public class Activity_1_Circle {
     private int radius;
 
     public Activity_1_Circle() {
-        radius = 7;
+        radius = 10;
     }
     public Activity_1_Circle(int r) {
         radius = r;
