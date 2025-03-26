@@ -11,9 +11,10 @@
 package Assignment_2;
 
 import java.util.Scanner;
-public class P4 {
+public class P4_Runner {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+        System.out.println("ROLL NO: SP24-BCS-069\nNAME: SARMAD\n ");
 
         // Create and initialize a Book instance
         System.out.println("Enter details for a Book:");

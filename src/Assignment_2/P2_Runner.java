@@ -15,8 +15,10 @@
 //                o Calls compareBooks() and compareChapterNames() and displays the results.
 package Assignment_2;
 
-public class P2 {
+public class P2_Runner {
     public static void main(String[] args) {
+
+        System.out.println("ROLL NO: SP24-BCS-069\nNAME: SARMAD\n ");
 
         P2_Book book1 = new P2_Book();
         book1.setAuthor("Author A");

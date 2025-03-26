@@ -11,9 +11,9 @@
 
 package Assignment_2;
 
-public class P1 {
+public class P1_Runner {
     public static void main(String[] args) {
-
+        System.out.println("MY ROLL NO: SP24-BCS-069\nNAME: SARMAD\n ");
         P1_Time time1 = new P1_Time();
         time1.displayTime();
 

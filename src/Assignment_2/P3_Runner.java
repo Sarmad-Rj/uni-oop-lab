@@ -17,8 +17,10 @@
 //         Write a main method to test multiple pizzas and display their total cost.
 package Assignment_2;
 
-public class P3 {
+public class P3_Runner {
     public static void main(String[] args) {
+        System.out.println("ROLL NO: SP24-BCS-069\nNAME: SARMAD\n ");
+
         P3_Pizza pizza1 = new P3_Pizza("large", 2, 1, 1);
         P3_Pizza pizza2 = new P3_Pizza("medium", 1, 2, 0);
         P3_Pizza pizza3 = new P3_Pizza("small", 0, 1, 1);
