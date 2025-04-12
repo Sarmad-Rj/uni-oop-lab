@@ -13,8 +13,10 @@ package Assignment_Theory_2;
 
 public class S2_Runner { // BankAccountManagementSystem
     public static void main(String[] args) {
+        System.out.println("ROLL NO: SP24-BCS-069\nNAME: SARMAD\n ");
+
         // Create a Regular Bank Account
-        S2_BankAccount account1 = new S2_BankAccount("001", "Alice", 5000);
+        S2_BankAccount account1 = new S2_BankAccount("001", "SARMAD", 5000);
         System.out.println("Account Holder: " + account1.getAccountHolderName());
 
         // Deposit and Withdraw from Regular Account

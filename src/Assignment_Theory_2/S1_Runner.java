@@ -13,9 +13,11 @@ package Assignment_Theory_2;
 
 public class S1_Runner {
     public static void main(String[] args) {
+
+        System.out.println("ROLL NO: SP24-BCS-069\nNAME: SARMAD\n ");
         // Create Students
-        S1_Student student1 = new S1_Student(1, "Alice");
-        S1_Student student2 = new S1_Student(2, "Bob");
+        S1_Student student1 = new S1_Student(1, "SARMAD");
+        S1_Student student2 = new S1_Student(2, "AHMAD");
 
         // Create Courses
         S1_Course course1 = new S1_Course(101, "Data Structures", 3);

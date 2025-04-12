@@ -12,10 +12,13 @@ package Assignment_Theory_2;
 
 public class S4_Runner { //LibraryManagementSystem
     public static void main(String[] args) {
+
+        System.out.println("ROLL NO: SP24-BCS-069\nNAME: SARMAD\n ");
+
         // Create Library and Add Books
         S4_Library library = new S4_Library();
-        S4_Book book1 = new S4_Book(101, "1984", "George Orwell");
-        S4_Book book2 = new S4_Book(102, "To Kill a Mockingbird", "Harper Lee");
+        S4_Book book1 = new S4_Book(101, "DLD", "ALI");
+        S4_Book book2 = new S4_Book(102, "White Nights", "Dostoevsky");
         library.addBook(book1);
         library.addBook(book2);
 
@@ -23,7 +26,7 @@ public class S4_Runner { //LibraryManagementSystem
         library.displayAvailableBooks();
 
         // Create Library User
-        S4_LibraryUser user = new S4_LibraryUser(1, "Alice");
+        S4_LibraryUser user = new S4_LibraryUser(1, "BILAL");
 
         // Borrow a Book
         S4_Book borrowedBook = library.borrowBook(101);
